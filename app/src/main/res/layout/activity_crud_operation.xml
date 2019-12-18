@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CRUDActivity">
+    <TextView
+        android:id="@+id/studenttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert Student Form"
+        android:gravity="center"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/stname"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Fullname"/>
+
+    <EditText
+        android:id="@+id/stemail"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Email"/>
+
+    <EditText
+        android:id="@+id/stphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Your Phone Number"/>
+
+    <Button
+        android:id="@+id/btnStSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Insert"/>
+    <Button
+        android:id="@+id/btnAllStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:text="View Student List"/>
+</LinearLayout>
